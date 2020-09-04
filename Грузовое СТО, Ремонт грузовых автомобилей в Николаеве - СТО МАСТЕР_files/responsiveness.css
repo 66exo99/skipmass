@@ -1,0 +1,44 @@
+/* Responsiveness */
+/* Tablet (portrait)  */
+@media only screen and  (max-width: 980px)  {
+	
+	/*-webkit-text-size-adjust: none; /*Отключить автоматическое изменение размера шрифта*/
+	/*-webkit-tap-highlight-color: rgba(0, 0, 0, 0); /*Отключить цветную обводку активных элементов*/
+	/*-webkit-user-select: none; /*Запретить выделять текст*/
+	/*-webkit-touch-callout: none; /*Запретить всплывающие системные меню*/
+	
+	.site_size {width:auto; max-width:940px; padding:0 10px;}
+	#wrapper {min-height: auto;height: auto;}
+	.side_main { float:none; width:auto; margin:0; }
+	.side_left { position:relative; float:none; width:auto; }
+	.content { margin:0; } 
+	.footer_center_ind { display:none;}
+}
+/* Mobile Phone (landscape & portrait)  */
+
+
+@media only screen and (max-width: 500px) { 
+	.footer_left {width:100%; margin:0; float:none; position:relative; text-align:center}
+	.footer_right { width:100%; margin:0; float:none; position:relative; padding:13px 0 0 0; text-align:center}
+	.footer_center_ind { display:none;}
+	.c_data {float:none; font:10px/1.2em Arial, Helvetica, sans-serif; color:gray; text-align:left}
+	.g_wrap { margin:-10px 10px 0 0; text-align:center;}
+	.g_pic { position:relative; max-width:100%; max-height:100%}
+	.g_inner {
+		position:relative;
+		display:block;
+		width:100%;
+	}
+	.g_clone { display:none;}
+	.g_item {
+		height:auto;
+		width:100%;
+		position:relative;
+		text-align:center;
+		display:block;
+		margin:15px 0 0 0;
+		vertical-align:top;
+		text-decoration:none;
+	}
+	.g_title { display:block; padding:0 0 0 0; text-align:center; font-size:11px;}
+}

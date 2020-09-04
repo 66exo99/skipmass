@@ -1,0 +1,21 @@
+.mand { color:#f00 !important ;}
+.validat .r {display:inline-block; vertical-align:top; width:6px;}
+.validat .indicator{
+    border-color: #EE5F5B;
+    color: #B94A48;
+}
+.validat input[type=checkbox].indicator,.validat input[type=radio].indicator { outline:1px solid red}
+
+.validat .indicator:focus {
+    border-color: #E9322D;
+    box-shadow: 0 0 6px #F8B9B7;
+}
+.psevdo_but {
+  cursor: not-allowed !important;
+  border-color: #ddd !important;
+  color:#999 !important;
+  background:#fff
+}
+.disabled {
+  cursor: not-allowed !important;
+}

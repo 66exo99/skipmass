@@ -1,0 +1,21 @@
+//Cufon.replace('.font_1', {hover:true});
+$(document).ready(function(){
+	//$('html').addtocopy({htmlcopytxt: '<br> Подробнее: <a href="'+window.location.href+'">'+window.location.href+'</a>', minlen:10, addcopyfirst: false});
+	
+	if ($('.validat').length){
+		$('.validat').liValidForm();
+	}
+	//$(".pop_1").colorbox({html:"<h3>PopUp HTML</h3><p>Etiam porta sem malesuada magna mollis euismod. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>"});
+	
+	if($('.site_link1').length){
+		$('.site_link1').colorbox({inline:true, width:"550px"});
+	}
+	
+	
+	Cufon.replace('.myriad',{
+		hover:true
+		});
+	
+	
+});
+
